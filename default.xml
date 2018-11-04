@@ -54,9 +54,9 @@
   <project name="cm12-amami/android_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" />
   <project name="cm12-amami/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" />
   <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" />
-  <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
   <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media/default" groups="qcom" />
-  <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" revision="cm-12.1-caf-8974" />
+ <project name="kbc-developers/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-12.1-caf-8960" />
+	<project name="kbc-developers/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-12.1-caf-8960" />
   <project name="cm12-amami/android_hardware_ril" path="hardware/ril" groups="pdk" />
   <project name="cm12-amami/android_hardware_ril" path="hardware/ril-caf" groups="pdk" revision="cm-12.1-caf" />
   <project name="cm12-amami/android_libcore" path="libcore" />
@@ -64,7 +64,6 @@
   <project name="cm12-amami/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" />
   <project name="cm12-amami/android_packages_apps_LockClock" path="packages/apps/LockClock" />
-  <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <project name="cm12-amami/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
   <project name="cm12-amami/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" />
@@ -82,15 +81,20 @@
   <project name="cm12-amami/android_system_media" path="system/media" groups="pdk" />
   <project name="cm12-amami/android_system_vold" path="system/vold" groups="pdk" />
   <project name="cm12-amami/android_vendor_cm" path="vendor/cm" />
-  <!-- SONY and MSM8974 specific -->
-  <project name="cm12-amami/android_kernel_sony_msm8974" path="kernel/sony/msm8974" />
-  <project name="cm12-amami/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
+  <!-- Samsung and jf-common -->
+<project name="kbc-developers/android_device_samsung_jfltedcm" path="device/samsung/jfltedcm" revision="cm-12.1" />
+<project name="kbc-developers/android_kernel_samsung_jfdcm" path="kernel/samsung/jfdcm" revision="cm-12.1" />
+<project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-12.1" />
+<project name="kbc-developers/android_device_samsung_jf-common" path="device/samsung/jf-common" revision="cm-12.1" />
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-12.1" />
+<project name="kbc-developers/android_external_stlport" path="external/stlport" revision="cm-12.1" />
+  <!-- I like suika and dog -->
+<project name="kbc-developers/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="cm-12.1" />
 
-
-  <!-- AOSP and LineageOS default references -->
+  <!-- Lineage OS/AOSP references -->
   <include name="ref/aosp.xml" />
   <include name="ref/lineageos.xml" />
-  <include name="ref/sony-lineage.xml" />
+  <include name="ref/sec-lineage.xml" />
 
   <!-- LineageOS references from higher branches -->
   <project name="LineageOS/android_external_freetype" path="external/freetype" groups="pdk" revision="cm-13.0" />
