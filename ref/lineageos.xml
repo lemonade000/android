@@ -6,6 +6,7 @@
   <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs" />
   <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs" />
+  <project path="device/common" name="LineageOS/android_device_common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="LineageOS/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
@@ -13,6 +14,7 @@
   <project path="device/generic/mips" name="LineageOS/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/android-mock" name="LineageOS/android_external_android-mock" />
   <project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="LineageOS/external_android_support-prebuilt" revision="master" />
@@ -31,6 +33,7 @@
   <project path="external/curl" name="LineageOS/android_external_curl" />
   <project path="external/dhcpcd" name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dropbear" name="LineageOS/android_external_dropbear" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" />
@@ -58,7 +61,6 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
-   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
@@ -82,6 +84,7 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" />
+  <project path="external/openssl" name="LineageOS/android_external_openssl" />
   <project path="external/pciutils" name="LineageOS/android_external_pciutils" />
   <project path="external/pcre" name="LineageOS/android_external_pcre" groups="pdk-cw-fs" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
@@ -100,6 +103,7 @@
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
@@ -124,6 +128,7 @@
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
@@ -133,6 +138,7 @@
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="LineageOS/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
   <project path="hardware/intel/common/libmix" name="LineageOS/android_hardware_intel_common_libmix" groups="intel" />
@@ -144,7 +150,11 @@
   <project path="hardware/nvidia/tegra124" name="LineageOS/android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" />
@@ -153,6 +163,7 @@
   <project path="hardware/ti/omap4xxx" name="LineageOS/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
+  <project path="libcore" name="LineageOS/android_libcore" />
   <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" />
@@ -166,9 +177,10 @@
   <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="LineageOS/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" />
+  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" />
@@ -192,10 +204,12 @@
   <project path="packages/providers/ApplicationsProvider" name="LineageOS/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" />
@@ -214,9 +228,12 @@
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
+  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
 </manifest>
