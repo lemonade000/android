@@ -87,7 +87,6 @@
 <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-12.1" />
 <project name="kbc-developers/android_device_samsung_jf-common" path="device/samsung/jf-common" revision="cm-12.1" />
 <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-12.1" />
-<project name="kbc-developers/android_external_stlport" path="external/stlport" revision="cm-12.1" />
   <!-- I like suika and dog -->
 <project name="kbc-developers/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="cm-12.1" />
 
