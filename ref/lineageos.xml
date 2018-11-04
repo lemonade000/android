@@ -58,6 +58,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
+   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
