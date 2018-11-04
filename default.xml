@@ -25,60 +25,48 @@
   <project name="cm12-amami/android" path="android" />
   <project name="cm12-amami/android_bionic" path="bionic" groups="pdk" />
   <project name="cm12-amami/android_bootable_recovery" path="bootable/recovery" groups="pdk" />
-  <project name="cm12-amami/android_device_common" path="device/common" groups="pdk-cw-fs" />
-  <project name="cm12-amami/android_external_aac" path="external/aac" groups="pdk" />
   <project name="cm12-amami/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" groups="pdk" />
   <project name="cm12-amami/android_external_chromium_org_v8" path="external/chromium_org/v8" /> 
-  <project name="cm12-amami/android_external_e2fsprogs" path="external/e2fsprogs" groups="pdk" />
   <project name="cm12-amami/android_external_libhevc" path="external/libhevc" />
-  <project name="cm12-amami/android_external_libvorbis" path="external/libvorbis" groups="pdk-cw-fs" />
+  <project name="cm12-amami/android_external_libnfc-nci" path="external/libnfc-nci" groups="pdk" />
   <project name="cm12-amami/android_external_libvpx" path="external/libvpx" />
   <project name="cm12-amami/android_external_libxml2" path="external/libxml2" groups="pdk-cw-fs" />
-  <project name="cm12-amami/android_external_neven" path="external/neven" groups="pdk-cw-fs" />
-  <project name="cm12-amami/android_external_openssl" path="external/openssl" />
   <project name="cm12-amami/android_external_pdfium" path="external/pdfium" groups="pdk-cw-fs" />
   <project name="cm12-amami/android_external_sfntly" path="external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project name="cm12-amami/android_external_skia" path="external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project name="cm12-amami/android_external_sonivox" path="external/sonivox" groups="pdk" />
+  <project name="cm12-amami/android_external_skia" path="external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project name="cm12-amami/android_external_sqlite" path="external/sqlite" groups="pdk" />
-  <project name="cm12-amami/android_external_svox" path="external/svox" groups="pdk-cw-fs" />
   <project name="cm12-amami/android_external_tremolo" path="external/tremolo" groups="pdk" />
-  <project name="cm12-amami/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <project name="cm12-amami/android_frameworks_av" path="frameworks/av" groups="pdk" />
   <project name="cm12-amami/android_frameworks_base" path="frameworks/base" />
   <project name="cm12-amami/android_frameworks_ex" path="frameworks/ex" />
   <project name="cm12-amami/android_frameworks_minikin" path="frameworks/minikin" groups="pdk-cw-fs" />
   <project name="cm12-amami/android_frameworks_native" path="frameworks/native" groups="pdk" />
   <project name="cm12-amami/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk" />
-  <project name="cm12-amami/android_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" />
   <project name="cm12-amami/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" />
   <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" />
+  <project name="cm12-amami/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
   <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media/default" groups="qcom" />
- <project name="kbc-developers/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-12.1-caf-8960" />
-	<project name="kbc-developers/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-12.1-caf-8960" />
+  <project name="cm12-amami/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" revision="cm-12.1-caf-8974" />
+  <project name="kbc-developers/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-12.1-caf-8960" />
+  <project name="kbc-developers/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-12.1-caf-8960" /> 
   <project name="cm12-amami/android_hardware_ril" path="hardware/ril" groups="pdk" />
   <project name="cm12-amami/android_hardware_ril" path="hardware/ril-caf" groups="pdk" revision="cm-12.1-caf" />
-  <project name="cm12-amami/android_libcore" path="libcore" />
   <project name="cm12-amami/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
-  <project name="cm12-amami/android_packages_apps_Dialer" path="packages/apps/Dialer" />
-  <project name="cm12-amami/android_packages_apps_Email" path="packages/apps/Email" />
+  <project name="cm12-amami/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
   <project name="cm12-amami/android_packages_apps_LockClock" path="packages/apps/LockClock" />
+  <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <project name="cm12-amami/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
   <project name="cm12-amami/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project name="cm12-amami/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <project name="cm12-amami/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" />
   <project name="cm12-amami/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" />
-  <project name="cm12-amami/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
-  <project name="cm12-amami/android_packages_providers_UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" />
   <project name="cm12-amami/android_packages_services_Telephony" path="packages/services/Telephony" />
   <project name="cm12-amami/android_platform_external_giflib" path="external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />  
   <project name="cm12-amami/android_platform_external_libnl" path="external/libnl" groups="pdk" />
   <project name="cm12-amami/android_platform_external_libopus" path="external/libopus" groups="pdk" />
   <project name="cm12-amami/android_system_core" path="system/core" groups="pdk" />
-  <project name="cm12-amami/android_system_extras_su" path="system/extras/su" />
-  <project name="cm12-amami/android_system_media" path="system/media" groups="pdk" />
-  <project name="cm12-amami/android_system_vold" path="system/vold" groups="pdk" />
   <project name="cm12-amami/android_vendor_cm" path="vendor/cm" />
   <!-- Samsung and jf-common -->
 <project name="kbc-developers/android_device_samsung_jfltedcm" path="device/samsung/jfltedcm" revision="cm-12.1" />
@@ -89,19 +77,18 @@
   <!-- I like suika and dog -->
 <project name="kbc-developers/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="cm-12.1" />
 
-  <!-- Lineage OS/AOSP references -->
+  <!-- AOSP and LineageOS default references -->
   <include name="ref/aosp.xml" />
   <include name="ref/lineageos.xml" />
   <include name="ref/sec-lineage.xml" />
 
-  <!-- LineageOS references from higher branches -->
+  <!-- LineageOS branch cm-13.0 and cm-14.1 references -->
   <project name="LineageOS/android_external_freetype" path="external/freetype" groups="pdk" revision="cm-13.0" />
-  <project name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" clone-depth="1" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_chromium-webview" path="external/chromium-webview" clone-depth="1" revision="cm-14.1" />
 
-  <!-- AOSP references from higher releases -->
+  <!-- AOSP android-6.0.1_r81 references -->
   <project name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-6.0.1_r81"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="aosp" revision="refs/tags/android-6.0.1_r81" />
-  <project name="platform/system/ca-certificates" path="system/ca-certificates" remote="aosp" revision="master" />
   
   <!-- Privacy-Browser (stoutner.com) -->
   <remote name="stoutner" fetch="git://git.stoutner.com" />
