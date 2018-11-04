@@ -55,7 +55,6 @@
   <project name="cm12-amami/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
   <project name="cm12-amami/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" />
   <project name="cm12-amami/android_packages_apps_LockClock" path="packages/apps/LockClock" />
-  <project name="cm12-amami/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <project name="cm12-amami/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
   <project name="cm12-amami/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
   <project name="cm12-amami/android_packages_apps_Settings" path="packages/apps/Settings" />
